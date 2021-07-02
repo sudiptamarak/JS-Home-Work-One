@@ -52,10 +52,10 @@ function printWindow(){
 
 // For Start Gif Image
 function onGif(){
-    document.getElementById('danceGif').src = '../images/dance.gif';
+    document.getElementById('danceGif').src = 'images/dance.gif';
 };
 
 // For Stop Gif Image
 function offGif(){
-    document.getElementById('danceGif').src = '../images/dance.png';
+    document.getElementById('danceGif').src = 'images/dance.png';
 };
