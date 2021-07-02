@@ -1,0 +1,21 @@
+p{
+    margin: 0;
+    padding: 0;
+}
+
+.common-text{
+    padding: 15px 0;
+}
+
+#date{
+    display: none;
+}
+
+.common-btn{
+    border: none;
+    outline: none;
+    background-color: rgba(170, 0, 204, 0.795);
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
