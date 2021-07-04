@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="author" content="Sudipta Mrong"> 
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>JS</title>
+	<!-- Font Awesome Css -->
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+	<!-- AOS Css -->
+	<link rel="stylesheet" href="css/aos.css">
+	<!-- Swiper Css -->
+	<link rel="stylesheet" href="css/swiper-bundle.min.css">
+	<!-- Animation Css -->
+	<link rel="stylesheet" type="text/css" href="css/animate.min.css">
+	<!-- Bootstrap Css -->
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<!-- Custom Style Css -->
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<!-- Custom Media Css -->
+	<link rel="stylesheet" href="css/media.css">
+</head>
+<body>
+	<!-- Top Header -->
+	<h1 class="header text-center">JS HOME WORK-ONE</h1>
+
+
+	<section class="JavaScript mt-5">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-6">
+					<h2>1. Date & Time</h2>
+
+					<p id="date" class="common-text"></p>
+
+					<button class="common-btn" type="button" onclick="showDateAndTime()">Show Date & Time</button>
+
+					<button class="common-btn" type="button" onclick="hideDateAndTime()">Hide Date & Time</button>
+				</div>
+
+				<div class="col-6">
+					<h2>2. Text Change</h2>
+
+					<p id="textChange" class="common-text">Lorem ipsum dolor sit amet.</p>
+
+					<button type="button" class="common-btn" onclick="textChange()">Text Change</button>
+				</div>
+
+				<div class="col-6">
+					<h2>3. Alert Box</h2>
+
+					<button class="common-btn" onclick="alertWindow()">Alert</button>
+				</div>
+
+				<div class="col-6">
+					<h2>4. Font Size</h2>
+
+					<p id="font-size" class="common-text">Lorem ipsum dolor sit amet.</p>
+
+					<button type="button" class="common-btn" onclick="fontSizeIncrease()">Font Size Increase</button>
+				</div>
+
+				<div class="col-6">
+					<h2>5. Color Change</h2>
+
+					<button type="button" id="colorChange" class="common-btn" onclick="colorChange()">Color Change</button>
+				</div>
+
+				<div class="col-6">
+					<h2>6. Equation</h2>
+
+					<div class="d-flex">
+						<p class="common-text">5 + 9 = ? Ans:</p>
+						<p class="common-text" id="firstSum"></p>
+					</div>
+
+					<div class="d-flex">
+						<p class="common-text">100 / 5 = ? Ans:</p></p>
+						<p class="common-text" id="secondSum"></p>
+					</div>
+					<div class="d-flex">
+						<p class="common-text">55 * 10 = ? Ans:</p>
+						<p class="common-text" id="thirdSum"></p>
+					</div>
+				</div>
+
+				<div class="col-6">
+					<h2>7. Using document.write</h2>
+
+					<button type="button" class="common-btn" onclick="documentWrite()">Write Doc</button>
+				</div>
+
+				<div class="col-6">
+					<h2>8. Console Log</h2>
+
+					<button type="button" class="common-btn" onclick="consoleLog()">Console Log</button>
+				</div>
+
+				<div class="col-6">
+					<h2>9. </h2>
+
+					<button type="button" class="common-btn" onclick="printWindow()">Print Full Screen</button>
+				</div>
+
+				<div class="col-6">
+					<h2>10. JS Source file</h2>
+
+					<button class="common-btn" onclick="onGif()">Start</button>
+
+					<img id="danceGif" class="w-50" src="images/dance.png" alt="">
+
+					<button class="common-btn" onclick="offGif()">Stop</button>
+				</div>
+
+				<div class="col-6">
+					<h2>11. Variable</h2>
+
+					<h5 id="var"></h5>
+				</div>
+
+				<div class="col-6">
+					<h2>12. toLowerCase toUpperCase</h2>
+
+					<h5 id="lowUp"></h5>
+				</div>
+
+				<div class="col-6">
+					<h2>13. Constant</h2>
+
+					<h5 id="const"></h5>
+				</div>
+
+				<div class="col-6">
+					<h2>14. Substring</h2>
+
+					<h5 id="substring"></h5>
+				</div>
+
+				<div class="col-6">
+					<h2>15. Length</h2>
+
+					<h5>Sudipta Mrong Name Length =</h5>
+					<h5 id="lenght"></h5>
+				</div>
+
+				<div class="col-6">
+					<h2>16. Split</h2>
+
+					<h5 id="split"></h5>
+				</div>
+
+				<div class="col-6">
+					<h2>17. Prompt</h2>
+
+					<h5 id="prompt"></h5>
+				</div>
+
+				<div class="col-6">
+					<h2>18. "" '' quotation</h2>
+
+					<h5 id="quotation"></h5>
+				</div>
+
+				<div class="col-6">
+					<h3>19. Conditional testing true or false for 8 = 9</h3>
+
+					<h5 id="conditional"></h5>
+				</div>
+
+				<div class="col-6">
+					<h2>20. Array [ ]</h2>
+
+					<h5 id="array"></h5>
+				</div>
+
+				<div class="col-6">
+					<h2>21. Object { }</h2>
+
+					<h5 id="object"></h5>
+				</div>
+
+				<div class="col-6">
+					<h2>22. JS Precedence Operator</h2>
+
+					<h5 id="precedence"></h5>
+				</div>
+
+				<div class="col-6">
+					<h2>23. Mouse Hover</h2>
+
+					<img src="https://images.pexels.com/photos/8545085/pexels-photo-8545085.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260" class="w-50" alt="" id="mousehover" onmouseover="mouseHover()">
+				</div>
+
+				<div class="col-6">
+					<h2>24. Double Click</h2>
+
+					<h5 id="dblclick"></h5>
+					<button type="button" class="common-btn" ondblclick="doubleClick()">Double Click</button>
+				</div>
+
+				<div class="col-6">
+					<h2>25. Toggle</h2>
+
+					<h5 id="toggle"></h5>
+					<button type="button" class="common-btn" onclick="clickToggle()">Toggle</button>
+				</div>
+
+				<div class="col-6">
+					<h2>26. Repeat</h2>
+
+					<h5 id="repeat"></h5>
+				</div>
+
+				<div class="col-6">
+					<h2>27. Function for calculation and return</h2>
+
+					<h5 id="calReturn"></h5>
+				</div>
+
+				<div class="col-6">
+					<h2>28. Convert from Fahrenheit to Celsius/h2>
+
+					<h5 id="fToCelsius"></h5>
+				</div>
+
+				<div class="col-6">
+					<h2>29. On key down</h2>
+
+					<h5 id="keyPress"></h5>
+					<button type="button" class="common-btn" onkeypress="keyPress()">Key Press</button>
+				</div>
+
+				<div class="col-6">
+					<h2>30. On Key Down</h2>
+
+					<h5 id="keyDown"></h5>
+					<button type="button" class="common-btn" onkeydown="keyDown()">Key Down</button>
+				</div>
+
+				<div class="col-6">
+					<h2>31. On key Up</h2>
+
+					<h5 id="keyUp"></h5>
+					<button type="button" class="common-btn" onkeyup="keyUp()">Key Up</button>
+				</div>
+
+				<div class="col-6">
+					<h2>32. String & Object</h2>
+
+					<h5 id="stirngObject"></h5>
+				</div>
+
+				<div class="col-6">
+					<h2>33. Slice()</h2>
+
+					<h5 id="slice"></h5>
+				</div>
+
+				<div class="col-6">
+					<h2>34. Substr()</h2>
+
+					<h5 id="substr"></h5>
+				</div>
+
+				<div class="col-6">
+					<h2>35. Replacing String Content</h2>
+
+					<h5 id="replace">Please use Windows 10</h5>
+					<button type="button" class="common-btn" onclick="textReplace()">Text Replace</button>
+				</div>
+
+				<div class="col-6">
+					<h2>36. Concat()</h2>
+
+					<h5 id="concat"></h5>
+				</div>
+
+				<div class="col-6">
+					<h4>37. trim() method removes whitespace from both sides of a string</h4>
+
+					<h5 id="trim"></h5>
+					<button type="button" class="common-btn" onclick="trim()">Trim</button>
+				</div>
+
+				<div class="col-lg-6">
+					<h2>38. padStart and padEnd</h2>
+
+					<h5 id="padStart"></h5>
+					<h5 id="padEnd"></h5>
+				</div>
+
+				<div class="col-lg-6">
+					<h2>39. CharAt and CharCodeAt</h2>
+
+					<h5 id="charAt"></h5>
+					<h5 id="charCodeAt"></h5>
+				</div>
+
+				<div class="col-lg-6">
+					<h2>40. Property access [ ] on strings</h2>
+
+					<h5 id="pAcess"></h5>
+				</div>
+
+				<div class="col-lg-6">
+					<h2>41. Split()</h2>
+
+					<h5 id="Split"></h5>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	
+
+	
+
+
+
+	
+
+
+
+
+
+
+	<!-- AOS Js -->
+	<script src="js/aos.js"></script>
+	<!-- IsoTop Js -->
+	<script src="js/isotope.pkgd.min.js"></script>
+	<!-- Swiper Js -->
+	<script src="js/swiper-bundle.min.js"></script>
+	<!-- Bootsrtap Js -->
+	<script src="js/bootstrap.min.js"></script>
+	<!-- Popper Js -->
+	<script src="js/popper.min.js"></script>
+	<!-- Jquery Js -->
+	<script src="js/jquery-3.6.0.min.js"></script>
+	<!-- Custom Script Js -->
+	<script src="js/script.js"></script>
+</body>
+</html>
+
+
+
